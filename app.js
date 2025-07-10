@@ -5,7 +5,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const app = express();
-const port = 8080;
+const port = 3000;
 
 // Middleware global
 app.use(cors());
